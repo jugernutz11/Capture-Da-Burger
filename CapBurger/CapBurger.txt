@@ -1,0 +1,30 @@
+"CapBurger"
+{
+	"base"		"base"
+	"title"		"Capture Da Burger"
+	"maps"		"^sk_"
+	"menusystem"	"1"
+	"workshopid"	"n/a"
+
+	"settings"
+	{
+		1
+		{
+			"name"		"sk_maxfrags"
+			"text"		"Max Frags"
+			"help"		"The maxiumum number of frags before a map change"
+			"type"		"Numeric"
+			"default"	"20"
+		}
+
+		
+		2
+		{
+			"name"		"sk_grenades"
+			"text"		"Allow Grenades"
+			"help"		"If enabled then grenades are enabled"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+	}
+}
